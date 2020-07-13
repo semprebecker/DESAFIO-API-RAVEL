@@ -1,0 +1,21 @@
+{
+  "name": "DESAFIO-API-RAVEL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/semprebecker/DESAFIO-API-RAVEL.git",
+  "author": "RBecker22 <ravel.beckermhd@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
